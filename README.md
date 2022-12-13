@@ -1,5 +1,5 @@
 # Towards Efficient 3D Object Detection with Knowledge Distillation
-
+阅读SparseKD代码顺便自己加一点注释，觉得有帮助的话可以给个star
 ---
 [Jihan Yang](https://jihanyang.github.io/), [Shaoshuai Shi](https://shishaoshuai.com/), [Runyu Ding](https://github.com/Dingry), [Zhe Wang](https://wang-zhe.me/), [Xiaojuan Qi](https://xjqi.github.io/)
 

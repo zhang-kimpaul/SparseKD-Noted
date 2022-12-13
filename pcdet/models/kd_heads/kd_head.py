@@ -22,7 +22,7 @@ class KDHeadTemplate(object):
         self.roi_head = None
 
     def build_loss(self, dense_head):
-        if not dense_head.is_teacher and self.model_cfg.get('KD_LOSS', None):
+        if not dense_head.is_teacher and self.model_cfg.get('KD_LOSS', None):#不同种类的KD-Loss
             if self.model_cfg.get('LOGIT_KD', None) and self.model_cfg.LOGIT_KD.ENABLED:
                 self.build_logit_kd_loss()
 
